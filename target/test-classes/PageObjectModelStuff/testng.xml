@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="Text1" value="INDIA"></parameter>
+	<parameter name="Text2" value="RUSSIA"></parameter>
+	<parameter name="Text3" value="10"></parameter>
+	<parameter name="Text4" value="CHINA"></parameter>
+	<parameter name="browserType" value="edge"></parameter>
+	<parameter name="urlText" value="https://demo.guru99.com/test/newtours/register.php"></parameter>
+    <classes>
+      <!--<class name="PageObjectModelStuff.CrossBrowserTesting"/>
+      <class name="PageObjectModelStuff.POMApproach1"/> -->
+      <class name="PageObjectModelStuff.POMPageFactoryApproach"/>        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
