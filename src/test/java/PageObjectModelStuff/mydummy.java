@@ -2,6 +2,6 @@ class sample
   {
     sample()
     {
-      system.out.println("sample class");
+      System.out.println("sample class");
     }    
   }
